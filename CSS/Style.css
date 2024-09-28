@@ -1,0 +1,138 @@
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap');
+
+  * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+  }
+
+  body {
+     height: 100vh;
+     width: 100vw;
+     overflow: hidden;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-color: #F8F8FF;
+     font-family: "Rubik", sans-serif;
+     color: #424242;
+  }
+
+  .Instruction {
+     font-size: xx-large;
+     font-weight: 500;
+  }
+
+  @media only screen and (max-width: 480px) {
+     .Instruction {
+        display: none;
+     }
+  }
+
+  .statusBar {
+     width: 100vw;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     position: sticky;
+  }
+
+  .HomeIndicatior {
+     width: 100vw;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     position: sticky;
+  }
+
+  .main {
+     height: 100vh;
+     width: 100vw;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0 24px;
+  }
+
+  .skip {
+     display: flex;
+     width: 100%;
+     height: fit-content;
+     justify-content: end;
+  }
+
+  .skip p {
+     padding: 6px 16px;
+     text-align: center;
+     font-size: 8px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     letter-spacing: 0.2px;
+     background-color: #E9EDEE;
+     color: #264653;
+     border-radius: 999px;
+  }
+
+  .container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 48px;
+  }
+
+  .startupText {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     gap: 8px;
+  }
+
+  .heading {
+     color: #424242;
+     text-align: center;
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 120%;
+  }
+
+  .subText {
+     width: 80%;
+     color: #757575;
+     font-size: 12px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     letter-spacing: 0.2px;
+  }
+
+  button {
+     all: unset;
+     border-radius: 10000px;
+     background: #4D7881;
+     min-width: 343px;
+     max-width: 343px;
+     padding: 15px 10px;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 140%;
+     letter-spacing: 0.2px;
+     text-align: center;
+     color: #F8F8FF;
+  }
+
+  @media only screen and (min-width: 480.1px) {
+     .main {
+        display: none;
+     }
+  }

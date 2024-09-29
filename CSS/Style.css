@@ -38,11 +38,15 @@
      position: sticky;
   }
 
+  a {
+     text-decoration: none;
+  }
+
   .HomeIndicatior {
      width: 100vw;
      display: flex;
      align-items: center;
-     justify-content: space-between;
+     justify-content: center;
      position: sticky;
   }
 
@@ -133,6 +137,14 @@
 
   @media only screen and (min-width: 480.1px) {
      .main {
+        display: none;
+     }
+
+     .statusBar {
+        display: none;
+     }
+
+     .HomeIndicatior {
         display: none;
      }
   }

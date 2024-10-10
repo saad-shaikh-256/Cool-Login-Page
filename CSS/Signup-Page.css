@@ -151,16 +151,6 @@
         }
      }
 
-     .Container .main .inputs span {
-        width: 100%;
-        text-align: end;
-        color: var(--primary-color);
-        font-size: 14px;
-        font-weight: 600;
-        line-height: 140%;
-        letter-spacing: 0.2px;
-     }
-
      .Container .Buttons {
         width: 100%;
         margin-bottom: -1dvh;
@@ -193,16 +183,7 @@
         letter-spacing: 0.2px;
      }
 
-     .Container .Buttons .Social-Media {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        gap: 4dvw;
-     }
-
-     .Container .Buttons .Signup {
+     .Container .Buttons .Signin {
         width: 100%;
         display: flex;
         justify-content: center;
@@ -217,7 +198,7 @@
         letter-spacing: 0.2px;
      }
 
-     .Container .Buttons .Signup a {
+     .Container .Buttons .Signin a {
         all: unset;
         color: var(--primary-color);
         font-weight: 500;

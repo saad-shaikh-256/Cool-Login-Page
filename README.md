@@ -29,4 +29,4 @@ To view or modify the project locally, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/Cool-Login-Page.git
+   git clone https://github.com/saad-shaikh-256/Cool-Login-Page.git

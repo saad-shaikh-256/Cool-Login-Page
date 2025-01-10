@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>Cool Login Page - by shaikhsaad256@gmail.com</title>
+
+   <!-- Links -->
+   <link rel="stylesheet" href="../CSS/login.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+   <!-- Favicon -->
+   <link rel="shortcut icon" href="../Materials/Image/Favicon.png" type="image/x-icon">
+</head>
+
+<body>
+
+   <!-- Instruction -->
+   <div id="Instruction">
+      Please Use Screen Size ⩽ 480px or Inspect Mode
+   </div>
+
+   <!-- Main Content -->
+   <main>
+
+      <div id="topContainer">
+
+         <div id="textBack">
+            <a href="../index.html"> <img src="/Assets/Icons/backArrow.svg" alt=""></a>
+            <div>Hey, Welcome Back</div>
+         </div>
+
+         <div id="inputs">
+
+            <div id="inputFields">
+               <div class="fields">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <g id="mail-02 - 20px">
+                        <path id="Vector"
+                           d="M5.83099 7.08453L8.2817 8.53345C9.71044 9.3782 10.2815 9.3782 11.7103 8.53345L14.161 7.08453"
+                           stroke="#9E9E9E" stroke-width="1.2495" stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Vector_2"
+                           d="M1.67912 11.2292C1.73358 13.7828 1.7608 15.0596 2.70303 16.0054C3.64526 16.9513 4.95661 16.9842 7.57931 17.0501C9.19573 17.0907 10.7963 17.0907 12.4127 17.0501C15.0354 16.9842 16.3467 16.9513 17.2889 16.0054C18.2312 15.0596 18.2584 13.7828 18.3128 11.2292C18.3304 10.4081 18.3304 9.59188 18.3128 8.77088C18.2584 6.21726 18.2312 4.94046 17.2889 3.99465C16.3467 3.04883 15.0354 3.01589 12.4127 2.94999C10.7963 2.90937 9.19573 2.90937 7.57931 2.94998C4.95661 3.01587 3.64526 3.04882 2.70303 3.99464C1.7608 4.94045 1.73357 6.21725 1.67912 8.77079C1.66161 9.59188 1.66161 10.4081 1.67912 11.2292Z"
+                           stroke="#9E9E9E" stroke-width="1.2495" stroke-linejoin="round" />
+                     </g>
+                  </svg>
+
+                  <input type="email" name="email" id="email" placeholder="Enter your email">
+
+               </div>
+
+               <div class="fields">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <g id="lock - 20px">
+                        <path id="Vector"
+                           d="M18.326 9.99989C18.326 14.6004 14.5965 18.3299 9.99602 18.3299C5.39548 18.3299 1.66602 14.6004 1.66602 9.99989C1.66602 5.39936 5.39548 1.66989 9.99602 1.66989C14.5965 1.66989 18.326 5.39936 18.326 9.99989Z"
+                           stroke="#9E9E9E" stroke-width="1.2495" />
+                        <path id="Vector_2"
+                           d="M9.99599 10.8332C10.9161 10.8332 11.662 10.0873 11.662 9.16716C11.662 8.24705 10.9161 7.50116 9.99599 7.50116C9.07585 7.50116 8.32999 8.24705 8.32999 9.16716C8.32999 10.0873 9.07585 10.8332 9.99599 10.8332ZM9.99599 10.8332V13.3322"
+                           stroke="#9E9E9E" stroke-width="1.2495" stroke-linecap="round" />
+                     </g>
+                  </svg>
+
+
+                  <input type="password" name="password" id="password" placeholder="Enter your password">
+
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <g id="view - 20px">
+                        <path id="Vector"
+                           d="M17.9541 9.20413C18.2073 9.55923 18.3339 9.73683 18.3339 9.99964C18.3339 10.2625 18.2073 10.44 17.9541 10.7952C16.8161 12.3908 13.91 15.8306 10.0039 15.8306C6.0978 15.8306 3.19173 12.3908 2.0538 10.7952C1.80055 10.44 1.67392 10.2625 1.67392 9.99964C1.67392 9.73683 1.80055 9.55923 2.0538 9.20413C3.19173 7.60846 6.0978 4.16864 10.0039 4.16864C13.91 4.16864 16.8161 7.60846 17.9541 9.20413Z"
+                           stroke="#9E9E9E" stroke-width="1.2495" />
+                        <path id="Vector_2"
+                           d="M12.5029 9.99967C12.5029 8.61947 11.3841 7.50067 10.0039 7.50067C8.62372 7.50067 7.50492 8.61947 7.50492 9.99967C7.50492 11.3799 8.62372 12.4987 10.0039 12.4987C11.3841 12.4987 12.5029 11.3799 12.5029 9.99967Z"
+                           stroke="#9E9E9E" stroke-width="1.2495" />
+                     </g>
+                  </svg>
+
+               </div>
+            </div>
+
+            <a href="">Forgot Password?</a>
+         </div>
+
+      </div>
+
+      <div id="bottomContainer">
+
+         <div id="button">
+            <a href="">Login</a>
+         </div>
+
+         <span class="continue">Or Continue with</span>
+         
+         <div id="socialMedia">
+            <img src="../Materials/Icons/Facebook.png " alt="">
+            <img src="../Materials/Icons/Google.png" alt="">
+            <img src="../Materials/Icons/Apple.png" alt="">
+         </div>
+
+         <div class="signUp">Don't have an Account? <a href="Signup-Page.html">Sign Up</a></div>
+
+      </div>
+
+   </main>
+
+   <!-- JS for GSAP -->
+   <script src="../JS/login.js"></script>
+</body>
+
+</html>

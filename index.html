@@ -4,39 +4,54 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="description" content="Login Page">
+
    <title>Cool Login Page - by shaikhsaad256@gmail.com</title>
-   <link rel="stylesheet" href="CSS/Style.css">
+
+   <!-- Links -->
+   <link rel="stylesheet" href="index.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+   <!-- Favicon -->
+   <link rel="shortcut icon" href="Materials/Image/Favicon.png" type="image/x-icon">
 </head>
 
 <body>
-   <h1 class="Instruction">
-      Please Use Screen Size &LessSlantEqual; 480px or Inspect Mode
-   </h1>
-   <div class="Container">
-      <div class="statusBar"> 
-         <img src="Assets/Status & Homebar/Left Side.svg" alt="">
-         <img src="Assets/Status & Homebar/Right Side.svg" alt="">
-      </div>
-      <div class="homeBar">
-         <img src="Assets/Status & Homebar/HomeIndicator.svg" alt="">
-      </div>
 
-      <div class="main">
-
-         <p><a href="HTML/Login-Page.html">Skip</a></p>
-
-         <div class="Content">
-            <img src="Assets/bg.svg" alt="">
-            <div class="startupText">
-               <div class="heading"> Welcome to App<span>Name</span> </div>
-               <div class="subText">Lorem ipsum dolor elit elit elit Volupta consectetur adsicing</div>
-            </div>
-            <img src="Assets/slider.svg" alt="">
-         </div>
-         <a href="HTML/Login-Page.html"><button>Get Started</button></a>
-      </div>
+   <!-- Instruction -->
+   <div id="Instruction">
+      Please Use Screen Size ⩽ 480px or Inspect Mode
    </div>
+
+   <!-- Main Content -->
+   <main>
+
+      <div id="skip">
+         <a href="HTML/Login-Page.html">Skip</a>
+      </div>
+
+      <div id="content">
+         <div id="image">
+            <img src="Materials/Image/background.svg" alt="">
+         </div>
+         <div id="startupText">
+            <div class="heading">Welcome to App<span>Name</span> </div>
+            <div class="subText">Lorem ipsum dolor elit elit elit Volupta consectetur adsicing</div>
+         </div>
+         <div id="slider">
+            <img src="Materials/Image/Slider.svg" alt="">
+         </div>
+      </div>
+
+      <div id="button">
+         <a href="HTML/Login-Page.html">Get Started</a>
+      </div>
+
+   </main>
+
+   <!-- JS for GSAP -->
+   <script src="index.js"></script>
 </body>
 
 </html>

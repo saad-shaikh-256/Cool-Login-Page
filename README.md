@@ -1,6 +1,6 @@
 # Cool Login Page
 
-![Cover Image](https://github.com/saad-shaikh-256/Cool-Login-Page/blob/main/Assets/Full%20Cover.jpg)
+![Cover Image](https://github.com/saad-shaikh-256/Cool-Login-Page/blob/main/Materials/Cover/Cover.jpg)
 
 ## Overview
 

@@ -1,6 +1,6 @@
 # Cool Login Page
 
-![Cover Image](https://saad-shaikh-256.github.io/Cool-Login-Page/Full%20Cover.jpg)
+![Cover Image](https://github.com/saad-shaikh-256/Cool-Login-Page/blob/main/Assets/Full%20Cover.jpg)
 
 ## Overview
 
@@ -12,7 +12,6 @@ You can view the live demo of the project here: [Cool Login Page](https://cool-l
 
 ## Features
 
-- **Responsive Design:** The layout adjusts seamlessly across various screen sizes.
 - **User-Friendly Interface:** Intuitive forms for user registration and login.
 - **Modern Aesthetics:** Clean and minimal design with a contemporary feel.
 - **Accessibility:** Ensures ease of use for all users.
